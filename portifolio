@@ -1,0 +1,19 @@
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Geovanna</a>
+        </div>    
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremim" onclick="seleccionar()">SOBRE MIM</a></li>
+                <li><a href="#curriculo" onclick="seleccionar()">CURRICULO</a></li>
+                <li><a href="#portifolio" onclick="seleccionar()">PORTIFOLIO</a></li>
+                <li><a href="#contato" onclick="seleccionar()">CONTATO</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive"  onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>    
+    
